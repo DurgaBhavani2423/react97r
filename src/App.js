@@ -3,21 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import './App.css';
-import Buttonexample from './components/function-components/14-feb/button';
-import Imgcomponent from './components/function-components/14-feb/imgcomponent';
-import Unorderlist from './components/function-components/14-feb/listcomponent';
-import Tabledata from './components/function-components/14-feb/tabelcomponent';
-import Formcomponent from './components/function-components/14-feb/formcomponent';
+import Headercomponent from './16-feb/bootstrap/header';
+import Caroselcomponent from './16-feb/bootstrap/carousel';
+import Progressbar from './16-feb/bootstrap/progressbar';
+import ModalExample from './16-feb/bootstrap/modals';
+
 
 function App() {
   return (
     <div>
-    <Unorderlist/>
-    <Tabledata/>
-    <Formcomponent/>
-    <Buttonexample/>
-   
-    <Imgcomponent/>
+    <Headercomponent/>
+    <Caroselcomponent/>
+    <Progressbar/>
+    <ModalExample/>
     
     </div>
   );
