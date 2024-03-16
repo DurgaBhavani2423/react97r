@@ -3,14 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import './App.css';
-import Productui from './components/19-feb/productui';
+import Pricecount from './22feb-task/incdecresdel';
+
 
 
 function App() {
   return (
     <div>
-    
-    <Productui/>
+    <Pricecount/>
+   
     </div>
   );
 }
